@@ -27,6 +27,13 @@ const Name = "Banner"
 const age = 50
 const isGreen = true
 ```
-Variable declared ```const``` keyword cannot be reassigned or mutated after they are declared.
+Variable declared ```const``` keyword cannot be reassigned or mutated after they are declared. ```const``` keyword also uses the same *block-scoping* method.
+
+By default typescript and javascript can infer the datatype of a variable once it has been assigned a value. But typescript comes with a feature to assign data type to a variable.
+```let Name: string = "Tony"``` Here the variable Name can only be assigned a 'String' value.
+```
+let age: number = 100
+let isHero: boolean = true
+```
 
 
