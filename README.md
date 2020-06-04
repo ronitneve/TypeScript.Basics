@@ -18,11 +18,11 @@ let isGreen = true
 For Example:
 ```
 if (condition) {
-    // variable a can only be used and referenced in this if block
+    // variable 'a' can only be used and referenced in this 'if' block
     let a = 100
 }
 
-//console.log cannot output a as it does not exist
+//console.log cannot output 'a' as it does not exist outside of the 'if' block.
 console.log(a)
 ```
 
@@ -44,5 +44,13 @@ Here the variable Name can only be assigned a 'String' value, Age a 'number' val
 A Variable can be assigned multiple datatypes,
 ```let age: number | string = 100```
 Here the variable age can be assigned a number or a string. But I would recommend using single datatyped variables while working on a project. 
+
+## **Arrays**
+
+Arrays are collection of similar values. all values in an array are indexed with a number. All arrays in TS start with the index 0.
+```let names: string[] = ["Banner", "Tony", "Steve"]
+let ages: number[] = [36, 42, 98]```
+
+Arrays have many predefined functions that help us perform various operations on the array elements.
 
 
