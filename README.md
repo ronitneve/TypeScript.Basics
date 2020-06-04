@@ -35,5 +35,6 @@ By default typescript and javascript can infer the datatype of a variable once i
 let age: number = 100
 let isHero: boolean = true
 ```
+A Variable can be assigned multiple datatypes, ```let age: number | string = 100``` Here the variable age can be assigned a number or a string. But I would recommend using single datatyped variables while working on a project. 
 
 
