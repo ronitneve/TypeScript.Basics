@@ -3,6 +3,11 @@ This is a basic guide to typescript language syntax.
 
 ## **Variable Declaration**
 
+DataTypes in TypeScript
+1. number : In typescript there is a singular datatype called 'number' which covers integer and float values
+2. string : String type of variable is used to store characters/words/sentences.
+3. Boolean : Bool types are used to save binary values such as True or False.
+
 Declaring Variables using ```let``` keyword
 ```
 let Name = "Banner"
