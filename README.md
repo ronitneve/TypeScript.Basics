@@ -48,8 +48,10 @@ Here the variable age can be assigned a number or a string. But I would recommen
 ## **Arrays**
 
 Arrays are collection of similar values. all values in an array are indexed with a number. All arrays in TS start with the index 0.
-```let names: string[] = ["Banner", "Tony", "Steve"]
-let ages: number[] = [36, 42, 98]```
+```
+let names: string[] = ["Banner", "Tony", "Steve"]
+let ages: number[] = [36, 42, 98]
+```
 
 Arrays have many predefined functions that help us perform various operations on the array elements.
 
